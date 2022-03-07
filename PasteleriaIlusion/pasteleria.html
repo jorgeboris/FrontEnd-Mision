@@ -1,1 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Ilusión</title>
+    <link rel="stylesheet" href="./assets/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <img src="./assets/img/pasteles-logo.png" alt="">
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="./admin.html">Administrador</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="sabores">
+        <h1>Sabores</h1>
+    </div>
+    <div class="tarjetas">
+        <div class="container">
+            <div class="card">
+                <img src="./assets/img/pastel-chocolate.jpg" alt="">
+                <h4>Chocolate</h4>
+                <p>Pastel de sabor chocolate ideal para todas las ocasiones</p>
+            </div>
+            <div class="card">
+                <img src="./assets/img/pastel-zanahoria.jpg" alt="">
+                <h4>Zanahoria</h4>
+                <p>Pastel de zanahoria, lo tienes que probar es muy rico!!</p>
+            </div>
+            <div class="card">
+                <img src="./assets/img/pastel-moka.jpg" alt="">
+                <h4>Moka</h4>
+                <p>Pastel de sabor moka ideal para todas las ocasiones</p>
+            </div>
+        </div>
+    </div>
+    <div class="adornos">
+        <h1>Adornos</h1>
+        <br>
+        <p class="lista">Betun....................................$15</p>
+        <p class="lista">Fresas...................................$25</p>
+        <p class="lista">Kiwi.....................................$25</p>
+        <p class="lista">Durazno..................................$25</p>
+        <p class="lista">Fondan...................................$50</p>
+    </div>
+    <div class="pedido">
+        <h1>Realiza tu pedido</h1>
+        <form action="">
+            <p>Nombre:</p>
+            <input type="text" class="field"> <br/>
 
+            <p>Telefono:</p>
+            <input type="number" class="field"> <br/>
+        
+            <p>Correo electrónico:</p>
+            <input type="text" class="field"> <br/>
+        
+            <p>Descripcion del Pastel:</p>
+            <input type="text" class="field"> <br/>
+            <br>
+            <p>Sabores</p>
+            <br>
+            <input type="checkbox" value="checkbox"> <label for="cbox2">Chocolate</label><br>
+            <input type="checkbox" value="checkbox"> <label for="cbox2">Zanahoria</label><br>
+            <input type="checkbox" value="checkbox"> <label for="cbox2">Moka</label>
+
+            <br><br>
+            <p>Adornos</p>
+            <br>
+            <input type="checkbox" value="checkbox"> <label for="cbox2">Betun</label><br>
+            <input type="checkbox" value="checkbox"> <label for="cbox2">Fresas</label><br>
+            <input type="checkbox" value="checkbox"> <label for="cbox2">Kiwi</label><br>
+            <input type="checkbox" value="checkbox"> <label for="cbox2">Durazno</label><br>
+            <input type="checkbox" value="checkbox"> <label for="cbox2">Fondan</label>
+
+            <p class="center-content">
+                <input type="submit" class="boton" value="Realizar Pedido">
+            </p>
+        
+        </form>
+    </div>
+</body>
+<footer>
+    <div class="contacto">
+        <h1>Contacto</h1>
+    </div>
+    <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4483.3824459985635!2d-104.32573810076043!3d19.105013612504298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1646507384099!5m2!1ses-419!2smx" width="100%" height="30%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="datos">
+        <h1>Datos de Contacto</h1>
+        <p>Telefono: 3141234567</p>
+        <p>Direccion: Av Eliaz Zamora #517, Manzanillo</p>
+        <p>Horario: Lunes a Sabado de 10am a 8pm</p>
+    </div>
+</footer>
+</html>
